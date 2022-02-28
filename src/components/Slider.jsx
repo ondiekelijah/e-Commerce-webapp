@@ -29,6 +29,8 @@ const Slide = styled.div`
 const ImgContainer = styled.div`
   flex: 1;
   height: 100%;
+  display: flex;
+  justify-content: center;
 `;
 
 const Image = styled.img`
