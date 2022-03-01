@@ -43,38 +43,39 @@ const categories = [
 const popularProducts = [
   {
     id: 1,
-    img: "https://i.ibb.co/0jb9GnJ/tshirt.jpg",
+    img: "https://i.ibb.co/PFYfx2w/4056532-161a8d92b4df00.jpg",
   },
 
   {
     id: 2,
-    img: "https://i.ibb.co/t80HJdG/tshirt1.jpg",
+    img: "https://i.ibb.co/3N3dh7Q/longsleeve.jpg",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/k469y8L/jeans.jpg",
+    img: "https://i.ibb.co/7YX9m4L/cap.jpg",
   },
   {
     id: 4,
-    img: "https://i.ibb.co/VxRvp3d/hoodie.jpg",
+    img: "https://i.ibb.co/2v409v5/hoodie.jpg",
   },
   {
     id: 5,
-    img: "https://i.ibb.co/mh6gs9C/hat1.jpg",
+    img: "    https://i.ibb.co/ZMB30cP/1361176-under-armour-hustle-5-0-backpack-backpack-black-graphite-1-1.jpg",
   },
   {
     id: 6,
-    img: "https://i.ibb.co/47BHxwt/dress.jpg",
+    img: "https://i.ibb.co/H7zmKgC/k96145-kangol-retro-track-jacket-emerald-red-1-5.jpg",
   },
   {
     id: 7,
-    img: "https://i.ibb.co/gyVVdN3/bikibi.jpg",
+    img: "https://i.ibb.co/6X30kYs/jacket.jpg",
   },
   {
     id: 8,
-    img: "  https://i.ibb.co/1J70F1v/1.jpg",
+    img: "https://i.ibb.co/zb9fd9c/handbag.jpg",
   }
 ];
+
 
 export default sliderItems;
 export { categories };

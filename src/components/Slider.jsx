@@ -61,8 +61,10 @@ const Button = styled.button`
 const Arrow = styled.div`
   width: 50px;
   height: 50px;
-  background-color: #f3ecec;
+  background-color: white;
+  color: black;
   border-radius: 50%;
+  border: 1px solid teal;
   display: flex;
   align-items: center;
   justify-content: center;

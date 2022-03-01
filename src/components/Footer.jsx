@@ -11,6 +11,8 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
+  padding: 15px 40px;
+
 `;
 const Left = styled.div`
   flex: 1;
