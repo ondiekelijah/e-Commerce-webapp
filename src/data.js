@@ -24,24 +24,58 @@ const sliderItems = [
 
 const categories = [
   {
-    id:1,
-    img:"https://i.ibb.co/8znH0DZ/pexels-marlon-schmeiski-6747302.jpg",
-    title:"SHIRT STYLE"
+    id: 1,
+    img: "https://i.ibb.co/8znH0DZ/pexels-marlon-schmeiski-6747302.jpg",
+    title: "SHIRT STYLE",
   },
   {
-    id:2,
-    img:"https://i.ibb.co/4gG1wQd/pexels-mikhail-nilov-7624559.jpg",
-    title:"LONGWEAR"
+    id: 2,
+    img: "https://i.ibb.co/4gG1wQd/pexels-mikhail-nilov-7624559.jpg",
+    title: "LONGWEAR",
   },
   {
-    id:3,
-    img:"https://i.ibb.co/KsjXVcc/pexels-pnw-production-7062017.jpg",
-    title:"LIGHT JACKETS"
-  }
-]
+    id: 3,
+    img: "https://i.ibb.co/KsjXVcc/pexels-pnw-production-7062017.jpg",
+    title: "LIGHT JACKETS",
+  },
+];
 
+const popularProducts = [
+  {
+    id: 1,
+    img: "https://i.ibb.co/0jb9GnJ/tshirt.jpg",
+  },
+
+  {
+    id: 2,
+    img: "https://i.ibb.co/t80HJdG/tshirt1.jpg",
+  },
+  {
+    id: 3,
+    img: "https://i.ibb.co/k469y8L/jeans.jpg",
+  },
+  {
+    id: 4,
+    img: "https://i.ibb.co/VxRvp3d/hoodie.jpg",
+  },
+  {
+    id: 5,
+    img: "https://i.ibb.co/mh6gs9C/hat1.jpg",
+  },
+  {
+    id: 6,
+    img: "https://i.ibb.co/47BHxwt/dress.jpg",
+  },
+  {
+    id: 7,
+    img: "https://i.ibb.co/gyVVdN3/bikibi.jpg",
+  },
+  {
+    id: 8,
+    img: "  https://i.ibb.co/1J70F1v/1.jpg",
+  }
+];
 
 export default sliderItems;
-export {categories};
-
-
+export { categories };
+export { popularProducts };
