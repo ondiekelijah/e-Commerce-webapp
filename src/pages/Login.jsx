@@ -18,7 +18,7 @@ const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
   border-radius: 8px;
-  background: #ffffff;
+  background: #d9d9d9;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
 `;
 const Form = styled.form`
