@@ -8,11 +8,15 @@ import {
     YouTube,
 } from "@mui/icons-material";
 import styled from "styled-components";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   display: flex;
   padding: 15px 25px;
-
+  ${mobile({
+        flexDirection: "column",
+        padding:"0px"
+    })}
 `;
 const Left = styled.div`
   flex: 1;
@@ -42,6 +46,9 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({
+        display: "none"
+    })}
 `;
 
 const Title = styled.h3`
@@ -62,6 +69,10 @@ const ListItems = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({
+        backgroundColor:  "#fcf5f5"
+
+    })}
 `;
 
 const ContactItem = styled.div`

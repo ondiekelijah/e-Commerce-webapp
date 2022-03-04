@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {mobile} from "../responsive"
 
 const Container = styled.div`
   width: 100vw;
@@ -20,6 +21,10 @@ const Wrapper = styled.div`
   border-radius: 8px;
   background: #d9d9d9;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  ${mobile({
+        width: "80%",
+    })}
+
 `;
 const Form = styled.form`
   display: flex;
