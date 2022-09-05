@@ -13,7 +13,9 @@ router.post("/register", async (req, res) => {
 
   try {
     const savedUser = await newUser.save();
-    res.status(201).json(savedUser);
+    // Remove password from response
+    const { password, ...userWithoutPassword } = savedUser._doc;
+    res.status(201).json(userWithoutPassword);
   } catch (error) {
     res.status(500).json(error);
   }

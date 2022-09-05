@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken")
 const verifyToken = (req, res, next)=>{
     const authHeader = req.headers.token
     // split the header, and get the token "Bearer token"
-    const token = authHeader.split(" ")[1];
+    const token = authHeader && authHeader.split(" ")[1]
     if (authHeader) {
         jwt.verify(token, process.env.JWT_SEC, (err, user)=>{
             if (err) res.status(403).json("Invalid token");
