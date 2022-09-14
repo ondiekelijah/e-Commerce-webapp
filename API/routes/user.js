@@ -68,14 +68,14 @@ router.get("/", verifyTokenAndAdmin, async (req, res) => {
 
 // GET USER STATS
 router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
-  const today = new Date();
-  const lastYear = today.setFullYear(today.setFullYear() - 1);
+  const date = new Date();
+  const lastYear = new Date(date.setFullYear(date.getFullYear() - 1));
 
   try {
     const data = await User.aggregate([
       // aggregate is a mongoose method that allows us to do complex queries
       { $match: { createdAt: { $gte: lastYear } } }, // $match is a mongoDB method that allows us to filter data basic
-      {
+      { // gte -> greater than, lte -> less than, eq -> equal, ne -> not equal
         $project: {
           month: { $month: "$createdAt" },
         },
